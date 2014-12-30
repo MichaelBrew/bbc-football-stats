@@ -10,6 +10,9 @@ After checking out this repository, you'll need to install scrapy. The downloads
 ## Usage
 
 Once everything is installed and ready to go, you can check out the available spiders in footballstats/spiders/stats_spider.py
+
+**IMPORTANT:** You must change the constants **TEAM\_NAME** and **LEAGUE\_NAME** within footballstats/spiders/stats_spider.py to the team you want data on and its league.
+
 I recommend reading through the scrapy documentation (http://doc.scrapy.org/en/0.24/intro/tutorial.html) about how to use scrapy scrapers, but below is an example use case.
 
 First navigate to the root folder, then use the following command:
