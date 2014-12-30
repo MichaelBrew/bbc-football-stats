@@ -15,7 +15,9 @@ I recommend reading through the scrapy documentation (http://doc.scrapy.org/en/0
 First navigate to the root folder, then use the following command:
 > scrapy crawl results -o results.json
 
-This will output the past results available from the club's BBC page into a JSON file called results.json. 
+This will output the past results available from the club's BBC page into a JSON file called results.json, looking like:
+> {"date": " Sun 28 Dec ", "awayTeam": "Bolton", "homeTeam": "Huddersfield", "score": " 2-1 ", "competition": " Championship  "} 
+
 Just replace 'results' in that command with the name of other spiders in order to invoke them.
 
 ## Contact
