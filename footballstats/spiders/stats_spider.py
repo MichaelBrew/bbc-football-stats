@@ -4,8 +4,17 @@ from footballstats.items import resultsItem
 from footballstats.items import fixturesItem
 from footballstats.items import ranksItem
 
-TEAM_NAME = "bolton-wanderers"
-LEAGUE_NAME = "championship"
+
+# This is where you set the team that you'll be gathering data on and its league
+# The team name is taken from the BBC URL, such as: http://www.bbc.com/sport/football/teams/bolton-wanderers
+# In that URL, the team name is 'bolton-wanderers'
+# You can see the league name in a URL such as: http://www.bbc.com/sport/football/championship/table
+# There the league name is simply 'championship'
+# I suggest just web searching 'bbc whatever_your_team_is' to view their BBC homepage so you can inspect the
+# URL and determine the correct name formatting
+
+TEAM_NAME = "INSERT_TEAM_NAME_HERE"
+LEAGUE_NAME = "INSERT_LEAGUE_NAME_HERE"
 
 class resultsSpider(scrapy.Spider):
     name = "results"
