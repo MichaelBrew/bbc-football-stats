@@ -25,4 +25,4 @@ Just replace 'results' in that command with the name of other spiders in order t
 
 ## Contact
 
-You can contact me at mike_brew1234@yahoo.com for any comments or questions. If you run into bugs, feel free to create an issue within the GitHub Issues page. 
+If you run into bugs, or have any comments or questions, feel free to create an issue within the GitHub Issues page. 
