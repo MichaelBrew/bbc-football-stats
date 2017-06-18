@@ -5,13 +5,13 @@ You can use this to collect data about any football club available on the BBC si
 
 ## Installation
 
-After checking out this repository, you'll need to install scrapy. The downloads and subsequent instructions are available here: http://scrapy.org/download/.
+After cloning this repository, you'll need to install scrapy. The downloads and subsequent instructions are available here: http://scrapy.org/download/.
 
 ## Usage
 
-Once everything is installed and ready to go, you can check out the available spiders in footballstats/spiders/stats_spider.py
+Once everything is installed and ready to go, you can check out the available spiders in `footballstats/spiders/stats_spider.py`
 
-**IMPORTANT:** You must pass **TEAM\_NAME** and **LEAGUE\_NAME** as environment variables (see footballstats/spiders/stats_spider.py for more instructions) for team you want data on and its league.
+**IMPORTANT:** You must pass **TEAM\_NAME** and **LEAGUE\_NAME** as environment variables (see `footballstats/spiders/stats_spider.py` for more instructions) for the team you want data on and its league.
 
 I recommend reading through the scrapy documentation (http://doc.scrapy.org/en/0.24/intro/tutorial.html) about how to use scrapy scrapers, but below is an example use case.
 
